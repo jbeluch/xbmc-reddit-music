@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.redditmusic" name="Reddit Music" version="0.1.0" provider-name="Jonathan Beluch (jbel)">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.xbmcswift2" version="1.1.1"/>
+    <import addon="script.module.requests" version="0.13.2"/>
+    <import addon="plugin.video.youtube" version="3.3.0"/>
+    <import addon="plugin.video.vimeo" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Watch or listen to music sourced from various music themed subreddits such as 'listentothis', 'hiphopheads', 'metal', etc.</summary>
+    <description>Watch or listen to music posted to various music themed subreddits. Create your own named playlists in the addon. Then, from the context menu of a playable item, add to your playlist. Or simply, check out the "hot" view for a given subreddit and play the entire list.</description>
+  </extension>
+</addon>

@@ -2,6 +2,12 @@ CHANGES
 =======
 
 
+Version 0.1.1
+-------------
+
+* Update to use new requests 1.0.x API
+
+
 Version 0.1.0
 -------------
 
